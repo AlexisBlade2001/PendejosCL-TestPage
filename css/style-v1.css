@@ -1,0 +1,57 @@
+*{
+    margin: 0;transition: 500ms;
+    cursor: url(cursors/Normal.cur), default;
+}
+html{
+    background-size: 100%;
+}
+h1,h2,h3,h4,h5,h6,p,th{
+    cursor: url(cursors/Text.cur), text;
+}
+a{
+    color: #ffffff;text-decoration:none;
+    cursor: url(cursors/Pointer.cur),pointer;
+}
+a:hover{
+    color: #0000ff;
+}
+a:active{
+    color: #00ff00;transition: 0ms;
+}
+
+body{
+    font-family: Segoe UI;
+    background-color:#1d1d1d;
+    color: #ffffff;
+}
+
+#footer{
+    color: white;
+    width: 100%;
+}
+.LastInfo{
+    cursor: url(cursors/Help.cur),help;
+    background: #000000;
+    width: 100%;
+    transition: 0s;
+}
+.WebInfo{
+    cursor: url(cursors/Help.cur),help;
+    max-width: 720px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 10px;
+}
+.WebCreators{
+    font-family: Consolas;
+    text-shadow: #989898bf 1.25px 1.25px;
+    color: white;}
+.WebCreators p{cursor: url(cursors/Text.cur),text;}
+.WebCreators a{text-decoration:none;color: aqua;cursor:url(cursors/HandWrite.cur),pointer;}
+.WebCreators a:hover{
+    text-shadow:none;
+    color: #ff0000;
+    cursor:url(cursors/HandWrite.cur),pointer;
+}
+.WebCreators a:active{color: #00ff00;transition: 0s;}
